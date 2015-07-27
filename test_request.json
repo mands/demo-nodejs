@@ -1,0 +1,7 @@
+{
+    "service": "mands/demo-nodejs",
+    "req": {
+        "method": "add",
+        "params": [1, 2]
+    }
+}
