@@ -5,7 +5,7 @@ name: demo-nodejs
 author: mands
 
 # uncomment if your service is hosted on GitHub
-# github_url: www.github.com/...
+github_url: https://github.com/mands/demo-nodejs
 
 # description of the service
 description: Awesome service in nodejs
