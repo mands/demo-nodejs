@@ -1,9 +1,6 @@
 # Name for the service - we recommend using snake-case
 name: demo-nodejs
 
-# Service author - must be a valid StackHut user
-author: mands
-
 # uncomment if your service is hosted on GitHub
 github_url: https://github.com/mands/demo-nodejs
 
@@ -11,5 +8,10 @@ github_url: https://github.com/mands/demo-nodejs
 description: Awesome service in nodejs
 
 # stack we use, in terms of the OS and language runtime
-baseos: alpine
+baseos: debian
 stack: nodejs
+
+persistent: False
+
+private: False
+

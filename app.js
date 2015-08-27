@@ -3,9 +3,10 @@
 let stackhut = require('./stackhut');
 
 // create each service as either an ES6 class or an object of functions
-class DefaultService {
+class Default extends stackhut.Service {
     constructor() {
         // empty
+        super();
     }
 
     add(x, y) {
@@ -16,5 +17,5 @@ class DefaultService {
 
 // export the services here
 module.exports = {
-    Default : new DefaultService()
+    Default : new Default()
 };
